@@ -1,0 +1,199 @@
+@import "./border.css";
+@import "./reset.css";
+
+.main {
+  background-color: black;
+  height: calc(100vh - 48px);
+  width: 100%;
+}
+
+.App {
+  background: black;
+  color: aqua;
+  font-size: 36px;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.bottom {
+  display: flex;
+}
+.bottom__left {
+  width: 200px;
+  color: white;
+  background-color: black;
+  padding: 0px 0px 0px 10px;
+  border-bottom: 1px;
+  height: calc(100vh - 48px);
+}
+.bottom__right {
+  width: 90%;
+  background-color: white;
+}
+
+.system {
+  position: relative;
+  margin: 18px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 1;
+}
+.bubble {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -55px;
+  background-color: rgb(199, 158, 238);
+  width: 130px;
+  height: 20px;
+  border-radius: 7px;
+  padding: 2px;
+}
+
+.list__banner {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+}
+.list {
+  color: rgb(199, 158, 238);
+  margin-right: 30px;
+}
+
+.buy {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.statusbar {
+  margin-left: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.statusbar__name {
+  width: 420px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.statusbar__date,
+.statusbar__name1,
+.statusbar__email {
+  margin-left: 40px;
+  color: white;
+  background-color: rgb(166, 96, 231);
+  padding: 5px;
+  border-radius: 4px;
+  width: 90px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.rightbottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.lleft {
+  width: 440px;
+  height: 650px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.rright {
+  width: 1100px;
+  height: 650px;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info__number,
+.info__email,
+.info__name {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 4px 9px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+.info__email {
+  width: 255px;
+}
+.info__name {
+  width: 85px;
+}
+.info__bottom1,
+.info__bottom2 {
+  display: flex;
+}
+
+.info__number1,
+.info__email1,
+.info__name1 {
+  width: 50px;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 4px 9px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+.info__number1 {
+  width: 20px;
+}
+.info__email1 {
+  width: 290px;
+}
+.info__name1 {
+  width: 85px;
+}
+
+.info__number2,
+.info__email2,
+.info__name2 {
+  width: 50px;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 4px 9px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+.info__number2 {
+  width: 20px;
+}
+.info__email2 {
+  width: 290px;
+}
+.info__name2 {
+  width: 85px;
+}
+.info2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  padding: 4px 9px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+.select {
+  margin-left: 50px;
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.5);
+}

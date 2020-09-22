@@ -1,0 +1,22 @@
+.border1,
+.border2,
+.border3,
+.border4,
+.border7,
+.border8 {
+  border-bottom: 1px solid white;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-weight: 800;
+}
+.border5,
+.border6 {
+  margin-left: 15px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 14px;
+}
+.border8 {
+  color: rgb(199, 158, 238);
+}
